@@ -1,0 +1,21 @@
+[package]
+name = "smiles_performance"
+version = "0.1.0"
+authors = ["Richard Apodaca <rich.apodaca@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+chemcore = "0.3.1"
+gamma = "0.8.1"
+
+[[bin]]
+name="integration"
+path="src/integration.rs"
+
+[[bin]]
+name="pcba"
+path="src/pcba.rs"
+
+[[bin]]
+name="micro"
+path="src/micro.rs"
